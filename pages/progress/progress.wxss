@@ -1,0 +1,9 @@
+/* pages/progress/progress.wxss */
+.pro{
+  margin-top: 50rpx;
+}
+.progress{
+  width: 80%;
+  height: 500rpx;
+  margin-left: 10%;
+}

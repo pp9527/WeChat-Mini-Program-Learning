@@ -1,0 +1,41 @@
+/* pages/scroll_view/scroll_view.wxss */
+.up{
+  padding: 50rpx 20rpx;
+}
+.bcgreen{
+  background: green;
+}
+.bcyellow{
+  background: yellow;
+}
+.bcred{
+  background: red;
+}
+.bcblue{
+  background: blue;
+}
+.first{
+  width: 100%;
+  height: 300rpx;
+}
+.second{
+  height: 100%;
+  width: 400rpx;
+  display: inline-block;
+}
+.scroll-y{
+  height:400rpx;
+}
+.buttontype{
+  border-radius: 10rpx;
+  background-color: green;
+  color: white;
+  margin-top: 30rpx;
+}
+.down{
+  margin-top: 20rpx;
+}
+.scroll-x{
+  height:150px; 
+  white-space: nowrap;
+}

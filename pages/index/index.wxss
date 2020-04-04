@@ -1,0 +1,7 @@
+/**index.wxss**/
+.buttontype{
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  margin-top: 700rpx;
+}

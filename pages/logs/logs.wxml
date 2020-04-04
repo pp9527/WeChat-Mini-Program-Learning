@@ -1,0 +1,9 @@
+<!--logs.wxml-->
+<text>logs内部组件</text>
+<view class="container">
+<button style="width: 500rpx;" class="buttontype"  ontap="gotoscroll_view">滑动窗口</button>
+<button style="width: 500rpx;" class="buttontype"  ontap="gotoswiper">滑块视图</button>
+<button style="width: 500rpx;" class="buttontype"  ontap="gotoicon">图标</button>
+<button style="width: 500rpx;" class="buttontype"  ontap="gototext">文本</button>
+<button style="width: 500rpx;" class="buttontype"  ontap="gotoprogress">进度条</button>
+</view>

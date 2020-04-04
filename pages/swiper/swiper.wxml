@@ -1,0 +1,20 @@
+<!--pages/swiper/swiper.wxml-->
+<view>
+  <swiper class="swiper-t" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="key">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="button-t">
+    <button type="primary" bindtap="changeIndicatorDots">隐藏指示点</button>
+    <button style="margin-top: 40rpx" type="primary" bindtap="changeAutoplay">自动播放</button>
+  </view>
+  <view>
+    <slider bindchange="intervalChange" show-value min="500" max="2000"/>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;interval(间隔时间)</text>
+    <slider bindchange="durationChange" show-value min="1000" max="10000"/>
+    <text decode="{{true}}">&ensp;&ensp;&ensp;duration(动画时间)</text>
+  </view>
+</view>

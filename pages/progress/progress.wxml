@@ -1,0 +1,7 @@
+<!--pages/progress/progress.wxml-->
+<view class="progress">
+<progress class="pro" percent="20" show-info></progress>
+<progress class="pro" percent="40" stroke-width="12"></progress>
+<progress class="pro" percent="60" color="red"></progress>
+<progress class="pro" percent="100" active></progress>
+</view>

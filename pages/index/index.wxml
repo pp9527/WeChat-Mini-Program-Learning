@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+<text>欢迎来到我的世界，请点击下方按钮进入神秘空间</text>
+</view>
+<button class="buttontype"  ontap="gotomypage">前往</button>

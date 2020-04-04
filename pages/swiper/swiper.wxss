@@ -1,0 +1,11 @@
+/* pages/swiper/swiper.wxss */
+.slide-image{
+  height: 450rpx;
+  width: 100%;
+}
+.swiper-t{
+  height: 450rpx;
+}
+.button-t{
+  margin-top: 40rpx;
+}

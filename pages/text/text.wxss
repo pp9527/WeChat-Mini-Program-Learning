@@ -1,0 +1,4 @@
+/* pages/text/text.wxss */
+.button_t{
+  margin-top: 50rpx;
+}
